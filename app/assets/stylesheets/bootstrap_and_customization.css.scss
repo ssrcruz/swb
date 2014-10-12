@@ -1,13 +1,12 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
-
-$body-bg: 					#ecf0f1;
-$font-family-sans-serif:    'Open Sans', 'Helvetica Neue', Helvetica, Arial, cursive;
+@import url(http://fonts.googleapis.com/css?family=Playball|Roboto|Bree+Serif|Open+Sans);
+$body-bg: 					#95a5a6;
+$font-family-sans-serif:    'Open-Sans', 'Helvetica Neue', Helvetica, Arial, cursive;
 $navbar-height:             45px;
-$navbar-default-bg: 		white;
-$navbar-default-brand-color:   #ff0000;
-$brand-primary: 			#f39c12;
-$jumbotron-bg:				white;
-@import'bootstrap';
+$navbar-default-bg: 		black;
+$navbar-default-brand-color:   #ecf0f1;
+$brand-primary: 			#16a085;
+$jumbotron-bg:				#95a5a6;
+@import 'bootstrap';
 
 .center {
 	text-align: center;

@@ -14,3 +14,9 @@
  *= require 'masonry/transitions'
  *= require_self
  */
+img.img-sized {
+	width: 80px;
+}
+ body {
+ 	background-image: url(/assets/background.jpg);
+ }
