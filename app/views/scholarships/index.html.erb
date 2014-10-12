@@ -1,0 +1,37 @@
+<div class="panel panel-info">
+ <div class="panel-heading"><h1>Listing scholarships</h1></div>
+  <div class="panel-body">
+    <table>
+  <thead>
+    <tr>
+      <th>School</th>
+      
+      <th>Major</th>
+      <th></th>
+      <th>Name</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @scholarships.each do |scholarship| %>
+      <tr>
+        <td><%= scholarship.school.name %></td>
+         
+        <td><%= scholarship.major.name %></td>
+        <th></th>
+        <td><%= scholarship.name %></td>
+        <th></th>
+
+        
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Scholarship', new_scholarship_path %>
+
+  </div>
+</div>

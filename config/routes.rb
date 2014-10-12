@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :scholarships
+
   resources :majors
 
   resources :schools
@@ -11,6 +13,7 @@ Rails.application.routes.draw do
   root "pins#index"
 
   get "about" => "pages#about" # creates about_path
+  get "scholarships" => "pages#scholarships" # creates scholarships_path
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
